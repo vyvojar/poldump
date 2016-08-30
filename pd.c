@@ -4,8 +4,6 @@
 #include <winternl.h>
 #include "wind.h"
 
-#define QUERY_KERNEL 1
-
 NTSTATUS NTAPI NtQueryLicenseValue(PUNICODE_STRING,DWORD*,PVOID,DWORD,DWORD*);
 int main()
 {
